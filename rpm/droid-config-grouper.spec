@@ -18,6 +18,17 @@
 # Other screen sizes and ratios will require more trial-and-error.
 %define pixel_ratio 1.0
 
+# Start ofone file conflict problem build_packages --version -------------------
+# https://github.com/mer-hybris/droid-config-sony-nile/blob/master/droid-config-common.inc 
+# https://irclogs.sailfishos.org/logs/%23sailfishos-porters/%23sailfishos-porters.2019-06-24.log.html
+#  
+# Device-specific ofono configuration
+Provides: ofono-configs
+Obsoletes: ofono-configs-mer
+
+# Ende -------------------
+
+
 %include droid-configs-device/droid-configs.inc
 %include patterns/patterns-sailfish-device-adaptation-grouper.inc
 %include patterns/patterns-sailfish-device-configuration-grouper.inc
