@@ -78,6 +78,8 @@ Requires: geoclue-provider-hybris
 #Requires: nfcd-binder-plugin
 #Requires: nfcd-pn54x-plugin
 
+Requires: droid-hal-grouper-detritus
+
 %description -n patterns-sailfish-device-adaptation-grouper
 Pattern with packages for grouper HW Adaptation
 
