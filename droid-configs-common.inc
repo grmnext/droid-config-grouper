@@ -9,7 +9,7 @@
 # Other screen sizes and ratios will require more trial-and-error.
 %define pixel_ratio 1.0
 
-%define out_of_image_files 1
+#%define out_of_image_files 1
 #%define provides_own_board_mapping 1
 
 # Start ofone file conflict problem build_packages --version -------------------
