@@ -40,4 +40,4 @@ Requires: geoclue-provider-mlsdb
 %description -n patterns-sailfish-device-configuration-grouper
 Pattern with packages for grouper configurations
 
-%files -n patterns-sailfish-device-configuration-grouper
+%files -n patterns-sailfish-device-configuration-grouper-1
